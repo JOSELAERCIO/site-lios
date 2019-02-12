@@ -1,0 +1,48 @@
+.container-articles {
+    display: flex;
+}
+
+.container-articles > .article {
+    margin: 0 20px;
+}
+
+.header-article {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.header-article > .link {
+    margin-right: 10px;
+}
+
+.title-subtitle-article > .title-article {
+    color: #4e97cc;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.title-subtitle-article > .subtitle-article {
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.img-article {
+    margin: 10px 0;
+}
+
+.content-article {
+    line-height: 25px;
+    text-align: justify;
+}
+
+.content-article > .bold {
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#youtube-logo {
+    fill:#ff0000;
+    width: 60px;
+}
